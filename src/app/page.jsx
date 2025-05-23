@@ -1,8 +1,7 @@
 import React from 'react'
-import Home from '../app/components/Home'
-import './styles/globals.css'
-import Projects from '../app/components/Projects'
-import Skills from '../app/components/Skills'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
 
 export default function Page() {
   return (
