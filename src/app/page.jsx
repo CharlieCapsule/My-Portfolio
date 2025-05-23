@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from './components/Home'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Home from '../app/components/Home'
+import './styles/globals.css'
+import Projects from '../app/components/Projects'
+import Skills from '../app/components/Skills'
 
 export default function Page() {
   return (
@@ -10,7 +10,6 @@ export default function Page() {
       <Home />
       <Projects />
       <Skills />
-      <Contact />
     </>
   )
 }
