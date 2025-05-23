@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+  text-align: center;
+  width: auto;
+  height: 30px;
+  top: 0rem;
+  padding-right: 50px;
+  position: sticky;
+  background-color: #1f2d5c;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #3f63dd;
+}
+
+.nameText {
+  color: #ffffff;
+  font-size: 2rem;
+  padding-top: 0px;
+  white-space: nowrap;
+}
+
+.titleText {
+  color: #3f63dd;
+  font-size: 1rem;
+  padding-left: 30px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  padding-left: 100px;
+}
+
+.picContainer {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 150px;
+}

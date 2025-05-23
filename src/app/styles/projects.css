@@ -1,0 +1,115 @@
+.mainProjectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-bottom: 250px;  */
+}
+
+.title {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+#projectContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 3px #3f63dd;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#projectName {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #3f63dd;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#skill {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#projectPic {
+    width: 150px;
+    height: 200px;
+}
+
+#explainationText {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.endText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+#projectContainer:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.overlayIcon {
+    color: white;
+    font-size: 80px !important;
+    transition: transform 0.3s ease;
+}
+
+.overlayIcon:hover {
+    transform: scale(0.8);
+}
+
+.videoOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoPlayer {
+    max-width: 100%;
+    max-height: 95%;
+    border: 2px solid white;
+    border-radius: 8px;
+}

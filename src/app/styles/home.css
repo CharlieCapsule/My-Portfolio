@@ -1,0 +1,111 @@
+h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.portText {
+    color: #3f63dd;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contactContainer {
+    height: 200px;
+    width: 600px;
+    display: flex;
+}
+
+.pic {
+    width: 250px;
+    height: 200px;
+    border-radius: 90px;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#linkSpace {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+
+#icons {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+#linkTree {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.cvTree {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#linkTree:hover {
+    color: #3f63dd;
+}
+
+.cvTree:hover {
+    color: #3f63dd;
+}
+
+.cv {
+    height: 60px;
+    width: 220px;
+    background-color: #3f63dd;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.cv:hover {
+    background-color: #1f2d5c;
+    color: #ffffff;
+    transition: 0.5s;
+    border: 1px solid #3f63dd;
+    cursor: pointer;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#mainText {
+    color: #ffffff;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    padding-left: 50px;
+}
+
+.nameTextTwo {
+    color: #ffffff;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    padding-top: 40px;
+}

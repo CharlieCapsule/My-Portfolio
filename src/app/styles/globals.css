@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  
+  background-color: #1f2d5c;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
