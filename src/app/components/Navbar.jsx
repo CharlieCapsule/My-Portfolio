@@ -10,9 +10,9 @@ export default function Navbar() {
       </div>
       <div className='titleContainer'>
       </div>
-      <Link href="#home">Accueil</Link>
-      <Link href="#skills">Compétences</Link>
-      <Link href="#projects">Projets</Link>
+      <a href="#home">Accueil</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
     </nav>
 
   )

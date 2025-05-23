@@ -4,11 +4,12 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 
 export default function Page() {
-  return (
-    <>
-      <Home />
-      <Projects />
-      <Skills />
-    </>
-  )
+    return (
+        <>
+            <section id="home">...</section>
+            <section id="skills">...</section>
+            <section id="projects">...</section>
+
+        </>
+    )
 }
