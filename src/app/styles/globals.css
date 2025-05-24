@@ -13,3 +13,52 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .pic {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+
+  .linkContainer {
+    align-items: center;
+  }
+
+  #linkTree {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+
+  #projectContainer {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  #projectPic {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainProjectContainer, .secondContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
